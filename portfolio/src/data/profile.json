@@ -1,0 +1,46 @@
+{
+  "name": "Abhishek Raj",
+  "role": "GRC & Cybersecurity Student | Aspiring Governance, Risk & Compliance Professional",
+  "taglineWords": [
+    "Governance, Risk & Compliance",
+    "ISO 27001 Implementation",
+    "Risk Assessment & Audit",
+    "Security Awareness & Training"
+  ],
+  "location": "India",
+  "email": "abhishekraj.grad@gmail.com",
+  "phone": "+91 82945 71848",
+  "availability": "Open to opportunities",
+  "summary": "I am a B.Tech Cybersecurity student with a strong interest in Governance, Risk & Compliance (GRC). My foundation in a disciplined, leadership-oriented environment shaped the way I approach cybersecurity—not just as a technical field, but as a responsibility to align security with organizational objectives. I enjoy analyzing systems, understanding how processes work behind the scenes, and translating complex security concepts into structured, business-focused solutions.",
+  "mission": "To build a career in Governance, Risk & Compliance by helping organizations strengthen their security posture through effective risk management, compliance, and continuous improvement while growing into a trusted cybersecurity leader.",
+  "values": [
+    "Integrity in decision-making",
+    "Leadership through responsibility",
+    "Continuous learning and self-improvement",
+    "Clear communication and collaboration"
+  ],
+  "strengths": [
+     "Analytical and risk-oriented mindset",
+     "Leadership and teamwork",
+     "Strong documentation and communication",
+     "Quick learner with a structured approach",
+     "Attention to detail"
+  ],
+  "differentiators": [
+   "Leadership skills developed through a disciplined defence-school environment.",
+   "Enjoys asking the right questions, understanding business processes, and identifying potential risks before they become issues.",
+   "Combines technical cybersecurity knowledge with a strong interest in governance, compliance, and business communication."
+  ],
+  "resumeUrl": "/resume.pdf",
+  "photoUrl": "/images/profile-placeholder.svg",
+  "stats": [
+    { "label": "Years Learning Cybersecurity", "value": 3, "suffix": "+" },
+    { "label": "Projects Completed", "value": 1, "suffix": "+" },
+    { "label": "Certifications", "value": 6, "suffix": "+" },
+    { "label": "Internships & Trainings", "value": 0, "suffix": "" }
+  ],
+  "socials": [
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/abhishek-raj-50a07b2b8/", "icon": "linkedin" },
+    { "label": "Email", "url": "mailto:abhishekraj.grad@gmail.com", "icon": "mail" }
+  ]
+}

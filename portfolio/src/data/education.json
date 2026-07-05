@@ -1,0 +1,37 @@
+[
+  {
+    "id": "edu-parul",
+    "institution": "Parul University",
+    "degree": "B.Tech in Computer Science & Engineering — Cybersecurity (GRC Specialization)",
+    "startDate": "2023-08",
+    "endDate": "2027-06",
+    "cgpa": "8.55",
+    "location": "Vadodara, Gujarat, India",
+    "coursework": [
+      "Governance, Risk & Compliance",
+      "Cryptography & Network Security",
+      "Cybersecurity Operations",
+      "Cloud Computing Fundamentals",
+      "Information Security","Auditing","Risk Manangement",
+      "Data Privacy & Protection Laws"
+    ],
+    "achievements": [
+      "Certifications in cryptography, cybersecurity operations, and network security",
+      "Active in GRC-focused academic projects"
+    ]
+  },
+  {
+    "id": "edu-sainik-school",
+    "institution": "Sainik School Balachadi",
+    "degree": "Higher Secondary Education",
+    "startDate": "2016-04",
+    "endDate": "2023-03",
+    "location": "India",
+    "coursework": ["Science", "Mathematics", "Leadership Training", "Public Speaking", "NCC"],
+    "achievements": [
+      "House Captain",
+      "NDA SSB qualified",
+      "National-level oratory competition recognition"
+    ]
+  }
+]

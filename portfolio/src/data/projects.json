@@ -1,0 +1,170 @@
+[
+  {
+    "slug": "iso27001-isms-implementation",
+    "title": "ISO 27001 ISMS Implementation Toolkit",
+    "summary": "An end-to-end simulated ISMS implementation: scope definition, risk treatment plan, and a full Statement of Applicability for a mid-sized fictional organization.",
+    "thumbnail": "/images/projects/Screenshot 2026-07-05 193352.png",
+    "screenshots": [
+      "/images/projects/iso27001-1.svg",
+      "/images/projects/iso27001-2.svg"
+    ],
+    "category": "GRC",
+    "tags": ["ISO 27001", "ISMS", "SoA", "Policy Writing"],
+    "technologies": ["Excel", "ISO 27001:2022", "Word/Docx"],
+    "difficulty": "Advanced",
+    "status": "In progress",
+    "featured": true,
+    "startDate": "2025-09",
+    "endDate": "2025-12",
+    "problemStatement": "Simulated a mid-sized fintech organization requiring a full ISO 27001:2022-aligned ISMS built from scratch.",
+    "businessImpact": "Reduced ISMS setup effort through reusable documentation templates and structured control mapping.",
+    "objectives": [
+      "Define ISMS scope and boundaries",
+      "Build risk assessment methodology",
+      "Create Statement of Applicability (SoA)",
+      "Draft core security policies"
+    ],
+    "architecture": "Documentation-first ISMS structure with risk register feeding SoA and control mapping.",
+    "methodology": [
+      "Scope definition",
+      "Asset identification",
+      "Risk assessment (5x5 matrix)",
+      "Control selection",
+      "Policy development"
+    ],
+    "riskAnalysis": "Identified 34 risks across people, process, and technology domains.",
+    "lessonsLearned": "Control ownership and evidence traceability are critical in ISO 27001 success.",
+    "futureImprovements": "Automate SoA-to-policy mapping using Python scripts.",
+    "links": [
+      {
+        "label": "View Repository",
+        "url": "https://github.com/your-username/iso27001-isms-toolkit",
+        "type": "github"
+      }
+    ]
+  },
+
+  {
+    "slug": "enterprise-risk-register",
+    "title": "Enterprise Risk Register & Heatmap",
+    "summary": "Structured risk register with automated heatmap visualization for prioritization.",
+    "thumbnail": "/images/projects/Screenshot 2026-07-05 193404.png",
+    "screenshots": [
+      "/images/projects/risk-register-1.svg"
+    ],
+    "category": "Risk Assessment",
+    "tags": ["Risk Register", "Risk Matrix", "Excel Automation"],
+    "technologies": ["Excel", "Python", "openpyxl"],
+    "difficulty": "Intermediate",
+    "status": "In progress",
+    "featured": true,
+    "startDate": "2025-06",
+    "endDate": "2025-07",
+    "problemStatement": "Static spreadsheets made risk tracking inefficient and inconsistent.",
+    "businessImpact": "Automated scoring and heatmap generation improved clarity of risk prioritization.",
+    "objectives": [
+      "Standardize risk scoring",
+      "Automate heatmap generation",
+      "Track risk owners and status"
+    ],
+    "architecture": "Python script processes risk register and applies conditional formatting for visualization.",
+    "methodology": [
+      "5x5 risk model design",
+      "Excel template creation",
+      "Automation scripting",
+      "Validation testing"
+    ],
+    "riskAnalysis": "Tested with 20 simulated enterprise risks.",
+    "lessonsLearned": "Standard definitions of risk impact are crucial for consistency.",
+    "futureImprovements": "Convert into a web-based dashboard.",
+    "links": [
+      {
+        "label": "View Repository",
+        "url": "https://github.com/your-username/enterprise-risk-register",
+        "type": "github"
+      }
+    ]
+  },
+
+  {
+    "slug": "vendor-risk-assessment-framework",
+    "title": "Vendor / Third-Party Risk Assessment Framework",
+    "summary": "Questionnaire-based framework to assess and classify vendor risk before onboarding.",
+    "thumbnail": "/images/projects/Screenshot 2026-07-05 193417.png",
+    "screenshots": [
+      "/images/projects/vendor-risk-1.svg"
+    ],
+    "category": "Risk Assessment",
+    "tags": ["Vendor Risk", "Third-Party Risk"],
+    "technologies": ["Excel"],
+    "difficulty": "Intermediate",
+    "status": "Planned",
+    "featured": false,
+    "startDate": "2025-03",
+    "endDate": "2025-04",
+    "problemStatement": "No structured vendor risk evaluation system existed.",
+    "businessImpact": "Standardized vendor classification into risk tiers.",
+    "objectives": [
+      "Design vendor questionnaire",
+      "Create risk tiering system",
+      "Define due diligence levels"
+    ],
+    "architecture": "Weighted scoring model with tier-based classification.",
+    "methodology": [
+      "Framework benchmarking",
+      "Questionnaire design",
+      "Threshold definition"
+    ],
+    "riskAnalysis": "Evaluated 10 simulated vendors.",
+    "lessonsLearned": "Data sensitivity is as important as vendor security posture.",
+    "futureImprovements": "Add automated vendor onboarding dashboard.",
+    "links": [
+      {
+        "label": "View Repository",
+        "url": "https://github.com/your-username/vendor-risk-framework",
+        "type": "github"
+      }
+    ]
+  },
+
+  {
+    "slug": "security-awareness-campaign",
+    "title": "Security Awareness Training Campaign",
+    "summary": "Quarterly security awareness program with phishing simulation tracking.",
+    "thumbnail": "/images/projects/Screenshot 2026-07-05 193426.png",
+    "screenshots": [
+      "/images/projects/awareness-1.svg"
+    ],
+    "category": "Security Awareness",
+    "tags": ["Security Awareness", "Phishing Simulation"],
+    "technologies": ["Slides", "Excel"],
+    "difficulty": "Beginner",
+    "status": "Planned",
+    "featured": false,
+    "startDate": "2025-01",
+    "endDate": "2025-02",
+    "problemStatement": "Lack of structured security awareness training.",
+    "businessImpact": "Improved simulated phishing awareness tracking.",
+    "objectives": [
+      "Create training modules",
+      "Design phishing simulation",
+      "Track engagement metrics"
+    ],
+    "architecture": "Training + tracking model for awareness improvement.",
+    "methodology": [
+      "Content creation",
+      "Simulation design",
+      "Tracking system setup"
+    ],
+    "riskAnalysis": "Focused on human-factor security risk.",
+    "lessonsLearned": "Engagement depends more on delivery than content.",
+    "futureImprovements": "Add interactive quizzes and gamification.",
+    "links": [
+      {
+        "label": "View Repository",
+        "url": "https://github.com/your-username/security-awareness-campaign",
+        "type": "github"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "siteName": "Abhi Sharma — GRC & Cybersecurity Portfolio",
+  "shortName": "Abhi Sharma",
+  "description": "Governance, Risk & Compliance focused cybersecurity portfolio — projects, certifications, and experience.",
+  "url": "https://your-domain.com",
+  "themeColor": { "light": "#f8fafc", "dark": "#0a0f1a" },
+  "nav": [
+    { "label": "About", "href": "#about" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Education", "href": "#education" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Certifications", "href": "#certifications" },
+    { "label": "Contact", "href": "#contact" },
+    { "label": "GRC Lab", "href": "#grc-lab", "comingSoon": true },
+    { "label": "Blog", "href": "#blog", "comingSoon": true }
+  ],
+  "futureSections": [
+    "GRC Lab (Risk Registers, SoA, Policies, Audit Dashboards)",
+    "Blog (Markdown-powered articles)",
+    "Interactive Risk & Compliance Dashboard",
+    "Learning Journey Roadmap",
+    "Achievements Wall",
+    "Resources Library",
+    "CTF Writeups",
+    "Case Studies",
+    "Testimonials"
+  ]
+}

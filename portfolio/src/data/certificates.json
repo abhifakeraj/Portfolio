@@ -1,0 +1,166 @@
+[
+  {
+    "id": "cert-iso27001-lead-auditor",
+    "name": "ISO/IEC 27001:2022 Lead Auditor",
+    "issuer": "Mindluster",
+    "category": "Governance",
+    "status": "In Progress",
+    "issueDate": "2026-08",
+    "logoUrl": "/images/certificates/idQDrXIDe__logos.jpeg",
+    "imageUrl": "/images/certificates/iso27001-auditor.svg",
+    "description": "Audit-focused ISO 27001 certification covering audit planning, execution, reporting, and compliance verification.",
+    "skillsLearned": [
+      "Audit Lifecycle",
+      "Compliance Checking",
+      "ISMS Auditing",
+      "Control Evaluation"
+    ]
+  },
+  {
+    "id": "cert-iso27001-lead-implementer",
+    "name": "ISO/IEC 27001:2022 Lead Implementer",
+    "issuer": "Mindluster",
+    "category": "Governance",
+    "status": "Completed",
+    "issueDate": "2026-09",
+    "logoUrl": "/images/certificates/idQDrXIDe__logos.jpeg",
+    "imageUrl": "/images/certificates/iso27001-implementer.svg",
+    "description": "Covers ISMS implementation lifecycle including risk assessment, control selection, policy creation, and certification readiness.",
+    "skillsLearned": [
+      "ISMS Implementation",
+      "Risk Treatment",
+      "Control Mapping",
+      "Policy Development"
+    ]
+  },
+  {
+    "id": "cert-iso27701-pims-auditor",
+    "name": "ISO/IEC 27701:2019 Privacy Information Management System Lead Auditor",
+    "issuer": "Mastermind",
+    "category": "Privacy",
+    "status": "In Progress",
+    "issueDate": "2026-09",
+    "logoUrl": "/images/certificates/idSFA5zI7I_logos.jpeg",
+    "imageUrl": "/images/certificates/iso27701.svg",
+    "description": "Focuses on privacy management systems, data protection frameworks, and privacy audit practices aligned with ISO 27701.",
+    "skillsLearned": [
+      "Privacy Management",
+      "Data Protection",
+      "PIMS Framework",
+      "Privacy Auditing"
+    ]
+  },
+  {
+    "id": "cert-nptel-crypto-netsec",
+    "name": "Cryptography and Network Security",
+    "issuer": "NPTEL",
+    "category": "Technical",
+    "status": "Completed",
+    "issueDate": "2025-04",
+    "credentialId": "NPTEL-25-CS-16-S-559700190",
+    "logoUrl": "/images/certificates/idkr1SGAoi_logos.jpeg",
+    "imageUrl": "/images/certificates/Screenshot 2026-07-05 182357.png",
+    "pdfUrl": "/certificates/Cryptography and Network Security.pdf",
+    "description": "Deep dive into cryptographic systems, network security protocols, encryption standards, and secure communication models.",
+    "skillsLearned": [
+      "Encryption",
+      "Hashing",
+      "Network Security",
+      "Secure Protocols"
+    ]
+  },
+  {
+    "id": "cert-crpo-eucyber",
+    "name": "Certified Ransomware Protection Certification",
+    "issuer": "EU Cyber Academy",
+    "category": "Security",
+    "status": "Completed",
+    "issueDate": "2026-01",
+    "credentialId": "6966-33A9-CF1B-B942-0250-AF36C",
+    "logoUrl": "/images/certificates/idB8tAvz86_logos.jpeg",
+    "imageUrl": "/images/certificates/Screenshot 2026-07-05 182331.png",
+    "pdfUrl": "/certificates/certificate-crpo-certified-ransomware-protection-officer-90-days-64d63660ac9488bbf50f3e76.pdf",
+    "description": "Covers ransomware attack lifecycle, prevention strategies, endpoint protection techniques, and recovery planning.",
+    "skillsLearned": [
+      "Ransomware Defense",
+      "Endpoint Security",
+      "Incident Response",
+      "Backup Strategy"
+    ]
+  },
+  {
+    "id": "cert-csme-eucyber",
+    "name": "Certified SME Cybersecurity Certification",
+    "issuer": "EU Cyber Academy",
+    "category": "Governance",
+    "status": "Completed",
+    "issueDate": "2026-01",
+    "credentialId": "6966-7295-66D6-C1DB-50C6-7AC0",
+    "logoUrl": "/images/certificates/idB8tAvz86_logos.jpeg",
+    "imageUrl": "/images/certificates/Screenshot 2026-07-05 182344.png",
+    "pdfUrl": "/certificates/certificate-cscso-certified-sme-cyber-security-officer-90-days-64d27672fd3cdf761404c8c5.pdf",
+    "description": "Cybersecurity framework for small and medium enterprises focusing on governance, compliance, and risk management.",
+    "skillsLearned": [
+      "SME Security Frameworks",
+      "Governance",
+      "Compliance Basics",
+      "Risk Management"
+    ]
+  },
+
+    {
+    "id": "cert-csc-hackenfix",
+    "name": "Cybersecurity Career Starter Certification (CSC)",
+    "issuer": "HackenFix",
+    "category": "Technical",
+    "status": "Completed",
+    "issueDate": "2026-01",
+    "credentialId": "5952-4114-9248-5995",
+    "logoUrl": "/images/certificates/idyinChWFF_logos.png",
+    "imageUrl": "/images/certificates/Screenshot 2026-07-05 182315.png",
+    "pdfUrl": "/certificates/CCSC.pdf",
+    "description": "Foundational cybersecurity certification covering core principles of security, attack surfaces, defensive practices, and introductory threat awareness.",
+    "skillsLearned": [
+      "Cybersecurity Fundamentals",
+      "Threat Awareness",
+      "Security Basics",
+      "Risk Understanding"
+    ]
+  },
+  {
+    "id": "cert-mental-health-cybersec-sbt",
+    "name": "Mental Health in Cybersecurity",
+    "issuer": "Security Blue Team",
+    "category": "Security",
+    "status": "Completed",
+    "issueDate": "2026-01",
+    "credentialId": "SBT-MHC-9975-33-638",
+    "logoUrl": "/images/certificates/idzEajcnFT_logos.jpeg",
+    "imageUrl": "/images/certificates/Screenshot 2026-07-05 182409.png",
+    "pdfUrl": "/certificates/Mental Health in Cybersecurity-course.pdf",
+    "description": "Focuses on psychological resilience in cybersecurity roles, stress handling in SOC environments, and burnout prevention.",
+    "skillsLearned": [
+      "Stress Management",
+      "SOC Work Awareness",
+      "Cybersecurity Psychology",
+      "Resilience Building"
+    ]
+  },
+  {
+    "id": "cert-excel-ai-microsoft",
+    "name": "Microsoft Excel with AI",
+    "issuer": "Microsoft Learn / LinkedIn Learning",
+    "category": "Technical",
+    "status": "Completed",
+    "issueDate": "2026-10",
+    "logoUrl": "/images/certificates/idhDxgotYR_1783258761816.jpeg",
+    "imageUrl": "/images/certificates/excel-ai.svg",
+    "description": "Advanced Excel skills combined with AI-assisted data analysis, automation, and reporting workflows.",
+    "skillsLearned": [
+      "Excel Automation",
+      "Data Analysis",
+      "AI-assisted Reporting",
+      "Productivity Tools"
+    ]
+  }
+]
