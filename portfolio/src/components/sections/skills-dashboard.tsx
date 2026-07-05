@@ -52,8 +52,8 @@ function LevelRing({ level }: { level: number }) {
         strokeDasharray={circumference}
         initial={{ strokeDashoffset: circumference }}
         whileInView={{ strokeDashoffset: offset }}
-         transform="rotate(-90 32 32)"
-         transition={{ duration: 1, ease: 'easeOut' }}
+        transform="rotate(-90 32 32)"
+        transition={{ duration: 1, ease: 'easeOut' }}
       />
 
       <text
@@ -64,7 +64,7 @@ function LevelRing({ level }: { level: number }) {
         style={{
           fill: "hsl(var(--foreground))",
           fontSize: "13px",
-          fontWeight: 600
+          fontWeight: 600,
         }}
       >
         {level}
@@ -75,25 +75,15 @@ function LevelRing({ level }: { level: number }) {
 
 export function SkillsDashboard() {
   const defaultTab = tabs?.[0]?.name ?? 'GRC';
+
   const [activeTab, setActiveTab] = useState<string>(defaultTab);
   const [selectedSkill, setSelectedSkill] = useState<Skill | null>(null);
 
-  if (!tabs.length) {
-    return (
-      <section className="section-container py-24">
-        <h1 style={{ color: "red", fontSize: "30px" }}>
-  SKILLS DASHBOARD LOADED
-</h1>
-        <div className="text-red-500">
-          Skills data not loaded correctly. Check skills.json structure.
-        </div>
-      </section>
-    );
-  }
+  // ✅ ALWAYS CALL HOOKS FIRST (no condition before this)
 
   const activeSkills = useMemo(() => {
     return tabs.find((t) => t.name === activeTab)?.skills ?? [];
-  }, [activeTab, tabs]);
+  }, [activeTab]);
 
   const relatedProjects = useMemo(() => {
     if (!selectedSkill?.relatedProjectSlugs) return [];
@@ -101,6 +91,20 @@ export function SkillsDashboard() {
       selectedSkill.relatedProjectSlugs?.includes(p.slug)
     );
   }, [selectedSkill]);
+
+  // ✅ ONLY AFTER ALL HOOKS
+  if (!tabs.length) {
+    return (
+      <section className="section-container py-24">
+        <h1 style={{ color: "red", fontSize: "30px" }}>
+          SKILLS DASHBOARD LOADED
+        </h1>
+        <div className="text-red-500">
+          Skills data not loaded correctly. Check skills.json structure.
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section id="skills" className="section-container py-24">
