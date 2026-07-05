@@ -62,7 +62,7 @@ export function ProjectsGallery() {
           </h3>
 
           <p className="mt-2 text-muted-foreground">
-            I'm actively building new projects and documenting my learning journey. Check back soon for future additions.
+            I am actively building new projects and documenting my learning journey. Check back soon for future additions.
           </p>
         </div>
       ) : (
